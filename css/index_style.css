@@ -50,13 +50,13 @@ h5 , p{
     color: #fff!important;
 }
 
-.my-nav .navbar-brand{
+ .navbar-brand{
     background-color: #192a56;
     color:#fff!important;
     padding: 8px 15px;
     position: relative;
 }
-.my-nav .navbar-brand::after
+ .navbar-brand::after
 {
     content: "";
     position: absolute;
@@ -384,16 +384,15 @@ h5 , p{
 footer
 {
     direction: rtl;
-    background-color: #eee
 }
-.contactinfo , .heading h3
+/* .contactinfo , .heading h3
 {
-    color: #192a56;
-}
-.last-section 
+    color: #fff;
+} */
+ .last-section 
 {
-    background-color: #ccc
-}
+    background-color: #111d3b
+} 
 .social i{
     background-color: #192a56;
     border-radius: 50%;
@@ -413,8 +412,74 @@ footer
 {
  transform: scale(1.2)
 }
+.last-section p
+{
+ color: #fff
+}
+.last-section a
+{
+ color: #fbc531
+}
 .cair ul{
     display: none
 }
 /* end fooooooooooooter */
+.my-footer
+{
+    background-image: url(../images/map.png);
+    background-color: #192a56;
+    background-position: center center;
+    color: #fff;
+
+}
+.contact-footer
+{
+    background-color: #fbc531
+}
+.contact-footer p
+{
+    font-size: 20px;
+}
+footer .navbar-brand 
+{
+    margin-right: 100px;
+    margin-top: 50px
+}
+/* gallary section */
+.gallary , .servise
+{
+    direction: rtl
+}
+/* .caption-dad 
+{
+    position: relative;
+} */
+.caption
+{
+    position: absolute;
+    top: 45px;
+    right: 33px;
+ }
+.caption p
+{
+    
+    background-color: #fbc531;
+    color: #111d3b;
+    font-size: 25px;
+    padding: 0px 17px;
+}
+.caption-dad:hover .caption
+{
+    top: 35px;
+}
+.caption-dad:hover p
+{
+    border-bottom: 3px solid #111d3b;
+    transition-delay: 1s;
+}
+/* seervices section */
+.header p{
+    font-size: 20px;
+}
+
 
