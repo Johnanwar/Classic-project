@@ -65,64 +65,98 @@
       
       <!-- end naaaaaaaaav baaaaaaaaaaaaaar -->
 
-<section class="my-footer">
 
-        <footer >
-                <div class="header pt-5" id="fooot">
-                    <h2 class="text-center pt-5">تواصل معنا</h2>
-                    <hr>
-                  </div>
-          
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="contactinfo my-5">
-                                <h2>معلومات التواصل</h2>
-                                <p>في حال واجهتك اي مشكله او اردت الاستفسار عن اي شيء فلا تتردد ف التواصل معنا</p>
-                            <div class="info">
-                                <i class="fas fa-map-marker-alt px-2 my-4"> </i>
-                                 <span>شارع العاصمه - القاهره - مصر</span>
-                               
-                                <br/>
-                                <i class="fas fa-envelope px-2 my-4"></i>
-                                 <span><a href="#">hello@uigrid.com</a></span>
-                                <br/>
-                                <i class="fas fa-phone px-2 my-4"></i>
-                                 <span>001-000-000-000</span>
-                            </div>
-                               
-                             </div>
-                        </div>
-                        <div class="col-md-6">
-                             <div class="ourdata  m-auto">
-                <div class="heading m-4">
-                    <h3>هيا نعمل سويا</h3>
-                </div>
-                <div class="dataform m-4">
-                    <form >
-                <input type="text" placeholder="الاسم بالكامل"class="form-control my-2"/>
-                 
-                <input type="email" placeholder="الايميل الخاص بك"class="form-control my-2"/>
-                   
-                    <input type="number" placeholder="رقم الموبايل"class="form-control my-2"/>
-                   
-                    <textarea class="form-control" placeholder="رسالتك " rows="5"></textarea>
-                    <button class="btn mt-3 float-right">ارسال</button>
-                    <div class="clearfix"></div>
-                    </form>
-                </div>
+
+
+
+ <section class="sign pt-5 mt-4">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+                 <div class="login-container">
+
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">تسجيل  الدخول</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">اضافه حساب</a>
+                            </li>
+                        
+                    </ul>
+                    <div class="tab-content " id="myTabContent">
+                      <div class=" tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <form class="form-group w-50 m-auto  mt-5">
+
+                <div class="mail">
+                <input type="email"  required="required" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="   الايميل " >
+                <!-- <i class="fas icon fa-envelope-square"></i>  -->
+                <span id="erorrmessage" >Error message here!</span>
+  
             </div>
-                        </div>
-                
-                    </div>
+
+                <div class="pass">
+                <input type="password"  required="required" class="form-control my-3" id="exampleInputPassword1" placeholder="   الرقم السري  ">
+                <!-- <i class="fas icon fa-key"></i> -->
+                <span id="erorrmessage" >Error message here!</span>
+
+                <a href="#" class="hide-password"><i class="fas fa-eye"></i></a>
+                <input type="checkbox" id="remember-me" checked>
+                <label for="remember-me">تزكر كلمه المرور</label> 
+                <div  class="text-center"> <a href="#">نسيت كلمه المرور </a></div>
+            </div>
+            <button type="submit" class=" btn  btn-lg btn-block mt-3 ">تسجيل الدخول</button>
+
+                          </form>
+
+
+                      </div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            
+                        <form class="form-group w-50 m-auto  mt-5">
+                                    <div class="mail">
+                                    <input type="text" required="required" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="   الاسم الاول " >
+                                    <!-- <i class="fas icon fa-male"></i> -->
+                                    <span id="erorrmessage" >Error message here!</span>
+
+                                </div>
+
+                                <div class="mail">
+                                    <input type="text"  required="required" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="   الاسم  الثاني " >
+                                    <!-- <i class="fas icon fa-male "></i>   -->
+                                    <span id="erorrmessage" >Error message here!</span>
+
+                                </div>
+                                    <div class="mail">
+                                    <input type="email"  required="required" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="   الايميل " >
+                                    <!-- <i class="fas icon fa-envelope-square"></i>    -->
+                                    <span id="erorrmessage" >Error message here!</span>
+
+                                </div>
+                    
+                                    <div class="pass">
+                                    <input type="password"  required="required" class="form-control my-3" id="exampleInputPassword1" placeholder="   الرقم السري  ">
+                                    <!-- <i class="fas icon fa-key"></i> -->
+                                    <a href="#0" class="hide-password"><i class="fas fa-eye"></i></a>
+                                    <span id="erorrmessage" >Error message here!</span>
+
+                                </div>
+                                <button type="submit" class=" btn  btn-lg btn-block mt-3 "> انشاء حساب</button>
+                    
+                                              </form>
+                      </div>
+                    </div> 
                 </div>
-           
-                     
-            </footer>
+             </div>
+         </div>
+     </div>
+ </section>
 
-</section>
 
-   <!-- <foooooooooooooooooooooooter -->
+
+     
+
+
 
     <footer class="contact-footer pt-3" >
 
@@ -182,7 +216,7 @@
               </div>
               </div>
                
-</footer>
+</footer> 
 
 
 

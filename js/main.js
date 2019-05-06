@@ -1,38 +1,8 @@
 // /* global , $ , console */
 
-// $(function(){
-      
-    
+$(function(){
 
-
-//     $(".nav-items li a").click( function(){
-//     $(this).addClass("activee").parent().siblings().find("a").removeClass("activee")
-//                              });
-  
-	
-   					  
-
-
-// $("#porttfoilo ul li").click( function(){
-// 	$(this).addClass("activeee").siblings().removeClass("activeee")});
-	
-// 		 $(".sccroll-top i").click (function() {
-// 	$("html , body").animate({ scrollTop: 0	},1000)	  
-// 		 });
-// 	$(window).scroll( function () {	
-
-// 		if ($(window). scrollTop () >= 1000){$(".sccroll-top i").fadeIn(400)}
-// 		else ($(".sccroll-top i").fadeOut(400) )
-	
-// 	});
-
-
-
-	
-    
-// });
-
-/* owl carowsl  */
+    /* owl carowsl  */
 $('.owl-carousel').owlCarousel({
     items:4,
 	loop:true,
@@ -54,16 +24,56 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+// taaaaaaaaaaps section
+$(".my-toggle h5").click(function(){
+    $(this).parent().toggleClass("cair");
+   })
+// taaaaaaaaaaps section
+// registration form
+
+
+
+    // $(".sign input").blur(function (e) { 
+    //     $(this).parent().toggleClass("cairo");
+        
+    // });
+    
+
+    // registration form
+
+
+ 	});
+     var pass = document.getElementById("exampleInputPassword1")
+     $(".fa-eye").click(function(){
+        console.log(pass)
+
+         if( pass.hasAttribute('type','password'))
+         {
+            pass.setAttribute('type','text')
+         }
+
+          else if ( pass.hasAttribute('type','text'))
+         {
+            pass.setAttribute('type','password')
+            console.log(pass)
+
+         }
+
+     })
+
+
+	
+    
+
+
+
     /* owl carowsl  */
-    // naaaaaaaaaaaav baaaaaaaaaaaaaar
-	      $('.nav-item a ').click(function (e){
-      $("html , body").animate({ scrollTop:$("#" + $(this).data("value")).offset().top},1000)          }); 
-     // naaaaaaaaaaaav baaaaaaaaaaaaaar
-// taaaaaaaaaaps section
-      $(".my-toggle h5").click(function(){
-     $(this).parent().toggleClass("cair")
-    })
-// taaaaaaaaaaps section
+    // // naaaaaaaaaaaav baaaaaaaaaaaaaar
+	//       $('.nav-item a ').click(function (e){
+    //   $("html , body").animate({ scrollTop:$("#" + $(this).data("value")).offset().top},1000)          }); 
+    //  // naaaaaaaaaaaav baaaaaaaaaaaaaar
+
 
 
       
