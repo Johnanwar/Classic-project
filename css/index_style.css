@@ -274,7 +274,7 @@ h5 , p{
 .card{
     border-radius: 15px!important
 }
-.details
+.details , .news
 {
     direction: rtl;
 }
@@ -352,6 +352,7 @@ h5 , p{
     background-size: cover; 
     position: relative;
     height: 500px;
+    background-attachment: fixed;
     direction: rtl;}
 .testmonial p{
     color: #fff;
@@ -508,6 +509,8 @@ footer .navbar-brand
  .sign{
     background-image: url(../images/card-2.jpg);
     background-size: cover;
+    background-attachment: fixed;
+
  }
  .login-container
  {
@@ -560,6 +563,46 @@ footer .navbar-brand
      {
          display: none;
      }
+     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #ffff;
+        background-color: #192a56;
+        border-color: #dee2e6 #dee2e6 #fff;
+    }
+    /* news section */
+    .news-parent
+    {
+        height: 100%
+    }
+    .news-parent:hover img{
+       opacity: .7;
+    }
+    .sociall i{
+        background-color: #192a56;
+        border-radius: 50%;
+        width: 36px;
+        height: 34px;
+    }
+    .sociall i:hover , .dataform .btn:hover , .sign .btn:hover{
+        color: #192a56;
+        background-color: #fbc531
+    }
+    .right-side
+    {
+        background-color: #eee;
+        padding: 10px;
+    }
+    .right-side select
+    {
+    height: 35px;
+    border: 1px solid #ccc;
+    color: #6c757d;
+    border-radius: 2px;
+    }
+    .news-parent p
+    {
+        font-size: 20px
+    }
+    
 
 /* media queryyyyyyyyyyyyyyyyyyyyyyyyyyy */
 @media screen and (max-width: 995px) {

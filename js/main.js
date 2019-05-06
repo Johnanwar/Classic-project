@@ -44,26 +44,25 @@ $(".my-toggle h5").click(function(){
 
 
  	});
-     var pass = document.getElementById("exampleInputPassword1")
-     $(".fa-eye").click(function(){
-        console.log(pass)
+     $(".hide-password").click(function(e){
+         e.preventDefault
 
+        var pass = document.getElementById("exampleInputPassword1")
+        
          if( pass.hasAttribute('type','password'))
          {
             pass.setAttribute('type','text')
          }
 
-          else if ( pass.hasAttribute('type','text'))
+          else 
          {
             pass.setAttribute('type','password')
             console.log(pass)
 
          }
 
-     })
+     });
 
-
-	
     
 
 
