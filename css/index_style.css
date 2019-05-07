@@ -278,7 +278,7 @@ h5 , p{
 {
     direction: rtl;
 }
-.book-btn , .sign .btn
+.book-btn , .sign .btn , .right-side .btn
 {
     background-color: #192a56;
     color:#fbc531
@@ -582,7 +582,7 @@ footer .navbar-brand
         width: 36px;
         height: 34px;
     }
-    .sociall i:hover , .dataform .btn:hover , .sign .btn:hover{
+    .sociall i:hover , .dataform .btn:hover , .sign .btn:hover , .right-side .btn:hover{
         color: #192a56;
         background-color: #fbc531
     }
@@ -602,8 +602,37 @@ footer .navbar-brand
     {
         font-size: 20px
     }
+    /* fixed section */
+    /* .fixed-section
+    {
+        position: fixed;
+        top: 311px;
+        left: 2px;
+        z-index: 999999999999999;
+        text-align: left
+    }
+    .fixed-section span
+    { 
+        color: #192a56;
+        font-size: 18px;
+        background-color: #fbc531;
+        padding: 5px;
+        border-radius: 6px;
+        border :1px solid #333;
+        display: none;
+    }
+    .fixed-section i{
+        font-size:24px;
+        margin-right: 5px
+    }
+    .fixed-section i:hover span 
+    {
+        display: block
+    } */
     
-
+.info i{
+    color: #fbc531;
+}
 /* media queryyyyyyyyyyyyyyyyyyyyyyyyyyy */
 @media screen and (max-width: 995px) {
     .navbar-nav {
@@ -637,6 +666,12 @@ footer .navbar-brand
   @media screen and (max-width: 995px) {
     .contact-footer .navbar-brand {
        margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (max-width: 995px) {
+    .tab-pane form {
+      width: 100%!important;
     }
   }
 
