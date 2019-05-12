@@ -384,8 +384,9 @@ h5 , p{
 
 
 footer
-{
-    direction: rtl;
+{	direction: rtl;
+   
+
 }
  .contactinfo i
 {
@@ -629,10 +630,52 @@ footer .navbar-brand
     {
         display: block
     } */
-    
+/*    last    ****************************************        updates*/
 .info i{
     color: #fbc531;
 }
+.serch
+{
+	color: #192a56;
+    position: absolute;
+    top: 7px;
+    opacity: .7;
+    right: -13px;
+	direction: rtl;
+}
+.input-search
+{
+	position: relative
+}
+.input-search .form-control:focus {
+    color: #495057;
+	border: none;
+    border-bottom: 1px solid #333;
+    outline: 0;
+    box-shadow: none;
+    width: 100% !important;
+	outline: none
+}
+.search-result
+{
+	min-height: 360px;
+}
+.news-content img
+{
+	height: 350px
+}
+.send-btn 
+{
+	background-color: #fbc531;
+    color: #192a56;
+}
+.send-btn:hover
+{
+	color: #fbc531;
+	background-color: #192a56;
+}
+
+
 /* media queryyyyyyyyyyyyyyyyyyyyyyyyyyy */
 @media screen and (max-width: 995px) {
     .navbar-nav {
