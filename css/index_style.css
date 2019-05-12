@@ -634,6 +634,18 @@ footer .navbar-brand
 .info i{
     color: #fbc531;
 }
+::-webkit-scrollbar
+{
+    background-color: #192a56!important;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #fbc531; 
+    border-radius: 5px; 
+}
+
+  
 .serch
 {
 	color: #192a56;
