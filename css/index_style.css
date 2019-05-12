@@ -664,16 +664,17 @@ footer .navbar-brand
 {
 	height: 350px
 }
-.send-btn 
+.send-btn , .send-btn i
 {
 	background-color: #fbc531;
     color: #192a56;
 }
-.send-btn:hover
+.send-btn:hover , .send-btn:hover i
 {
 	color: #fbc531;
 	background-color: #192a56;
 }
+
 
 
 /* media queryyyyyyyyyyyyyyyyyyyyyyyyyyy */
